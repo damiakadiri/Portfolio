@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/keyboard.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 75px;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0px 15px 15px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #82CD47;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 25px;
+}
+nav ul li a:hover{
+    color: #82CD47;
+}
+.btn{
+    background-color: #82CD47;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+/* content section */
+.content{
+    margin: 70px 70px;
+    color: white;
+}
+.theh3{
+    color: #82CD47;
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+form{
+    width: 380px;
+    position: relative;
+    display: flex;
+}
+form input:first-child{
+    width: 61%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #82CD47;
+    border-radius: 30px;
+    outline: none;
+}
+form input:last-child{
+    background-color: #82CD47;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
+    top: 6px;
+    right: 6px;
+    
+}
+/* content section ends */
+
+/* about me section */
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.main img {
+    height: 250px;
+    width: 250px;
+}
+.about-text{
+    width: 550px;
+}
+
+.main {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text a {
+    background-color: #82CD47;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+/* about me section ends */
+/* Services section */
+.wbc {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
+.Services {
+    background-color: #28282B;
+}
+
+
+.Services h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.box h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.box p{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fa-solid {
+    color: #82CD47;
+    margin-left: 160px ;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.box button {
+    border-radius: 20px;
+    background-color: #82CD47;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    margin-left: 120px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Services h4 {
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+.hirebtn {
+    border-radius: 20px;
+    background-color: #82CD47;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    margin: 20px 0 0 560px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+/* Service section ends */
+/* footer section */
+
+footer {
+    background-color: #191919;
+}
+
+footer .brands {
+    display: flex;
+    justify-content: center;
+    
+}
+footer h2 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    
+    
+}
+.brands .lit {
+    width: 50px;
+    height: 50px;
+    background-color: #82CD47;
+    margin: 30px 10px 10px 10px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer h4 {
+    text-align: center;
+    color: white;
+    padding: 10px 0 50px 0;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        padding: 10px 2px;
+    }
+    
+    .content{
+        margin: 12px 27px;
+        color: white;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .theh3 {
+        color: yellowgreen;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 200px;
+        position: relative;
+    }
+    
+    form input:last-child {
+        background-color: yellowgreen;
+        padding: 10px 30px;
+        border-radius: 30px;
+        position: absolute;
+        border: none;
+        top: 6px;
+        cursor: pointer;
+        right: 5px;
+    }
+    
+    .main {
+        margin: 20px 20px;
+        display: block;
+    }
+
+    .about-text h2 {
+        color: white;
+        font-size: 50px;
+        text-transform: capitalize;
+        margin: 20px 20px;
+    }
+    
+    .about-text {
+        padding: 10px 3px;
+    }
+    
+    .about-text h5 {
+        color: white;
+        letter-spacing: 2px;
+        font-size: 12px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .wbc {
+        display: block;
+        margin: 0 100px;
+        justify-content: space-between;
+    }
+
+    .fa-solid {
+        color: #82CD47;
+        margin-left: 260px ;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .box button {
+        border-radius: 20px;
+        background-color: #82CD47;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        margin-left: 220px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .hirebtn {
+        border-radius: 20px;
+        background-color: #82CD47;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        margin: 20px 0 0 330px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        cursor: pointer;
+        
+    }
+}
+@media (max-width: 820px) {
+    .main {
+        width: 1150px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .hirebtn {
+        border-radius: 20px;
+        background-color: #82CD47;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        margin: 20px 0 0 360px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .wbc {
+        display: block;
+        margin: 0 100px;
+        justify-content: space-between;
+    }
+
+    .fa-solid {
+        color: #82CD47;
+        margin-left: 300px ;
+        font-size: 30px;
+        margin-bottom: 25px;
+        padding-top: 15px;
+    }
+
+    .box button {
+        border-radius: 20px;
+        background-color: #82CD47;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        margin-left: 240px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
