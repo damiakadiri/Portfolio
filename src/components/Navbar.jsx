@@ -100,6 +100,8 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300 font-bold"
                 href="https://www.linkedin.com/in/amosakadiri"
+                target="_blank"
+                rel="noreferrer"
               >
                 Linkedin <FaLinkedin size={30} />
               </a>
@@ -108,6 +110,8 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300 font-bold"
                 href="https://github.com/damiakadiri"
+                target="_blank"
+                rel="noreferrer"
               >
                 Github <FaGithub size={30} />
               </a>
@@ -124,6 +128,8 @@ const Navbar = () => {
               <a
                 className="flex justify-between items-center w-full text-gray-300 font-bold"
                 href="https://drive.google.com/file/d/1rK1InXtoi5B1wiaYcQPvNiwZ8-OuxT5K/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>

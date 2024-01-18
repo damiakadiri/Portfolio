@@ -5,8 +5,7 @@ const Contact = () => {
       className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
       <form
-        method="POST"
-        action=""
+        action="https://submit-form.com/ekFRGHzf4"
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
@@ -35,7 +34,10 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button
+          type="submit"
+          className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center"
+        >
           Let&apos;s Collaborate
         </button>
       </form>
