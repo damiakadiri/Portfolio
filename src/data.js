@@ -7,7 +7,7 @@ export const data = [
     name: "Vanilla JS Application",
     image: realestate,
     github: "https://github.com/damiakadiri/Property_listing_page",
-    live: "https://mellow-eclair-92ad14.netlify.app/",
+    live: "https://property-listings2.netlify.app/",
   },
   {
     id: 2,
